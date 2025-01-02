@@ -1,0 +1,9 @@
+[package]
+name = "mc_finder"
+version = "0.4.0"
+edition = "2021"
+
+[dependencies]
+mcping = "0.2.0"
+rand = "0.8.5"
+serde_json = "1.0.134"
