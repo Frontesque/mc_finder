@@ -76,6 +76,6 @@ pub fn run(scanrate: u32) {
 }
 
 #[cfg(windows)]
-pub fn run() {
+pub fn run(_scanrate: u32) {
     println!("Masscan mode is not supported on Windows.\nPlease use classic mode or refer to --help for more information.")
 }
